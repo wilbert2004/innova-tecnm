@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Clases personalizadas para las fuentes */
+.inter-tight {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.lobster {
+  font-family: "Lobster", cursive;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.palatino {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+.tu-texto-personalizado {
+  color: #404040; /* Color gris oscuro */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Alternativas similares */
+  font-size: 25px;
+  font-weight: 300; /* Light (equivalente a helvetica-w01-light) */
+  letter-spacing: 0.5px; /* Opcional: ajusta el espaciado si lo necesitas */
+}
+
+.oliver1{
+  color: #E0BE9A; /* Color verde claro (ajustado: el código en tu imagen parece tener un typo, debería ser #E0BE9A) */
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 45px;
+  font-weight: normal;
+  text-decoration: none; /* Opcional: quita el subrayado típico de enlaces */
+  letter-spacing: 0.5px; /* Ajusta según necesidad */
+}
