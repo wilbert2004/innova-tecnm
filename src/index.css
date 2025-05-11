@@ -34,3 +34,52 @@
   text-decoration: none; /* Opcional: quita el subrayado típico de enlaces */
   letter-spacing: 0.5px; /* Ajusta según necesidad */
 }
+
+.contenedor-equipo-2-2-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tarjeta-equipo.centrada {
+  grid-column: 1 / -1;
+  width: 50%;
+  justify-self: center;
+}
+
+.tarjeta-equipo {
+  background: white;
+  border: none;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 0;
+  box-shadow: none;
+  position: relative;
+}
+
+.tarjeta-equipo h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.tarjeta-equipo p {
+  font-size: 1rem;
+  color: #888;
+  font-weight: 300;
+}
+
+/* Línea decorativa debajo del título */
+.tarjeta-equipo h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #333;
+  margin: 15px auto;
+}
