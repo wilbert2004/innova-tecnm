@@ -90,14 +90,6 @@ function Navbar() {
             <li className="nav-item border border-white bg-danger text-white fw-bold p-1">
               <Link
                 className="nav-link fw-bold text-white btn btn-danger btn-sm mx-1"
-                to="/blog"
-              >
-                Blog
-              </Link>
-            </li>
-            <li className="nav-item border border-white bg-danger text-white fw-bold p-1">
-              <Link
-                className="nav-link fw-bold text-white btn btn-danger btn-sm mx-1"
                 to="/contacto"
               >
                 Contacto
