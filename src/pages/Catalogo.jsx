@@ -1,6 +1,6 @@
 import React from "react";
-import Semillas from "../components/componentsCatalogo/Semillas"; // Importa el componente Semillas\
-import TituloCatalogo from "../components/componentsCatalogo/TituloCatalogo";
+import Semillas from "../components/componentscatalogo/Semillas"; // Importa el componente Semillas\
+import TituloCatalogo from "../components/componentscatalogo/titulocatalogo";
 const Catalogo = () => {
   return (
     <div>
