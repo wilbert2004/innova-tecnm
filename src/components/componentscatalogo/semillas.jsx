@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-
+//importamos la imagen de tomate
+import tomate from "../../assets/imagnessemillas/tomate.jpg";
 const Semillas = () => {
   const initialSemillas = [
     {
       id: 1,
       nombre: "Tomate Cherry",
-      imagen: "/img/tomate-cherry.jpg",
+      imagen: tomate,
       tipo: "hortalizas",
       beneficios: "Rico en vitamina C, antioxidantes y bajo en calorías.",
       requerimiento: "Requiere suelos bien drenados y sol pleno.",
