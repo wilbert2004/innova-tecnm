@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 //importamos la imagen de tomate
 import tomate from "../../assets/imagnessemillas/tomate.jpg";
+//importamos la imagen de albahaca
+import alba from "../../assets/imagnessemillas/alba.webp";
+//importamos la imagen de zanahoria
+import zanahoria from "../../assets/imagnessemillas/zanahoria.jpg";
 const Semillas = () => {
   const initialSemillas = [
     {
@@ -15,7 +19,7 @@ const Semillas = () => {
     {
       id: 2,
       nombre: "Albahaca",
-      imagen: "/img/albahaca.jpg",
+      imagen: alba,
       tipo: "aromaticas",
       beneficios: "Mejora la digestión y posee propiedades antiinflamatorias.",
       requerimiento: "Prefiere climas cálidos y suelo bien abonado.",
@@ -23,7 +27,7 @@ const Semillas = () => {
     {
       id: 3,
       nombre: "Zanahoria",
-      imagen: "/img/zanahoria.jpg",
+      imagen: zanahoria,
       tipo: "hortalizas",
       beneficios: "Ayuda a mejorar la vista y es buena para la piel.",
       requerimiento: "Requiere suelos sueltos y con buen drenaje.",

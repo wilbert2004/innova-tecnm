@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import ContactoRedes from "../ContactoRedes";
+import producto1 from "../../assets/imagenproductos/procuto1.webp";
+import producto2 from "../../assets/imagenproductos/procuto2.webp";
+import producto3 from "../../assets/imagenproductos/procuto3.webp";
 const Grupos = () => {
   const { filtro } = useParams();
 
@@ -20,7 +23,7 @@ const Grupos = () => {
           {
             id: 1,
             nombre: "Caja de regalo germinable (30x30cm)",
-            imagen: "/img/caja1.jpg",
+            imagen: producto1,
             publico: true,
             miembros: 2,
             tipo: "mis-grupos",
@@ -28,7 +31,7 @@ const Grupos = () => {
           {
             id: 2,
             nombre: "Cajas de regalo germinable (20x20 cm)",
-            imagen: "/img/caja2.jpg",
+            imagen: producto2,
             publico: true,
             miembros: 1,
             tipo: "sugeridos",
@@ -36,7 +39,7 @@ const Grupos = () => {
           {
             id: 3,
             nombre: "Caja de regalo germinable (7.8 X 5.4 X 2.5 Cm)",
-            imagen: "/img/caja3.jpg",
+            imagen: producto3,
             publico: true,
             miembros: 1,
             tipo: "sugeridos",
