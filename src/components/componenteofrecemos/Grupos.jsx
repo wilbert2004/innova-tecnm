@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import ContactoRedes from "../ContactoRedes";
-import producto1 from "../../assets/imagenproductos/procuto1.webp";
-import producto2 from "../../assets/imagenproductos/procuto2.webp";
-import producto3 from "../../assets/imagenproductos/procuto3.webp";
+import producto1 from "../../assets/imagenproductos/producto1.webp";
+import producto2 from "../../assets/imagenproductos/producto2.webp";
+import producto3 from "../../assets/imagenproductos/producto3.webp";
 const Grupos = () => {
   const { filtro } = useParams();
 
