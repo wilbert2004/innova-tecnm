@@ -83,3 +83,28 @@
   background: #333;
   margin: 15px auto;
 }
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.card:hover .card-overlay {
+  opacity: 1;
+}
+
+.overlay-content {
+  width: 100%;
+}
