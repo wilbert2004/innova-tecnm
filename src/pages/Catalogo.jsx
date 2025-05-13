@@ -1,5 +1,5 @@
 import React from "react";
-import TituloCatalogo from "../components/componentsCatalogo/titulocatalogo";
+import TituloCatalogo from "../components/componentscatalogo/TituloCatalogo"; // Importa el componente TituloCatalogo
 import Semillas from "../components/componentscatalogo/semillas"; // Importa el componente Semillas
 const Catalogo = () => {
   return (
