@@ -1,5 +1,5 @@
 import React from "react";
-import Semillas from "../components/componentscatalogo/Semillas"; // Importa el componente Semillas\
+import Semillas from "../components/componentscatalogo/semillas"; // Asegúrate que la ruta y el nombre son correctos
 import TituloCatalogo from "../components/componentscatalogo/titulocatalogo";
 const Catalogo = () => {
   return (
